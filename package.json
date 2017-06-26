@@ -1,0 +1,38 @@
+{
+  "name": "electron-squirrel-s3",
+  "version": "1.0.0",
+  "description": "Update your Electron app directly from S3 Edit",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felixrieseberg/electron-squirrel-s3.git"
+  },
+  "author": "Felix Rieseberg <felix@felixrieseberg.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felixrieseberg/electron-squirrel-s3/issues"
+  },
+  "homepage": "https://github.com/felixrieseberg/electron-squirrel-s3#readme",
+  "devDependencies": {
+    "@types/connect": "^3.4.30",
+    "@types/electron": "^1.6.10",
+    "@types/graceful-fs": "^2.0.29",
+    "@types/node": "^8.0.3",
+    "@types/node-fetch": "^1.6.7",
+    "@types/semver": "^5.3.31",
+    "@types/temp": "^0.8.29"
+  },
+  "dependencies": {
+    "connect": "^3.6.2",
+    "download": "^6.2.3",
+    "graceful-fs": "^4.1.11",
+    "node-fetch": "^1.7.1",
+    "rxjs": "^5.4.1",
+    "semver": "^5.3.0",
+    "temp": "^0.8.3",
+    "uuid": "^3.1.0"
+  }
+}
